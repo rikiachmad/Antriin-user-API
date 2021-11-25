@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb://antriin:antriin123@antriin-shard-00-00.1xolc.mongodb.net:27017,antriin-shard-00-01.1xolc.mongodb.net:27017,antriin-shard-00-02.1xolc.mongodb.net:27017/antriinDB?ssl=true&replicaSet=atlas-p59ypu-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
