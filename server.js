@@ -15,6 +15,9 @@ app.get('/', (req, res) => res.json({ msg: 'Welcome to Antriin API' }));
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/queues', require('./routes/queues'));
+app.use('/api/admins', require('./routes/admins'));
+app.use('/api/authAdmins', require('./routes/authAdmins'));
+app.use('/api/status', require('./routes/status'));
 
 const PORT = process.env.PORT || 5000;
 
